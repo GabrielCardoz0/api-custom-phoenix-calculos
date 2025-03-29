@@ -33,6 +33,6 @@ app
 
 
 
-.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+.listen(PORT ?? 3000, () => {
+  console.log(`Server running on port ${PORT ?? 3000}`);
 });
